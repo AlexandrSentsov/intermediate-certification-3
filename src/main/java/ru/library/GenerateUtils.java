@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class GenerateUtils {
 
-    private static Faker faker = new Faker();
+    public static Faker faker = new Faker();
 
     public static List<Book> generateSomeBooks(int count) {
         final List<Book> books = new ArrayList<>();
